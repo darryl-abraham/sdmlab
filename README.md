@@ -1,2 +1,1 @@
-# sdmlab
-Semantic Data Management Lab Project
+# Semantic Data Management Lab Project 2

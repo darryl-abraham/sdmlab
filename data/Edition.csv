@@ -1,0 +1,64 @@
+Edition_ID,year,conference,city
+36394,2011,ant,Bangalore
+36395,2012,cser,Jakarta
+36396,2011,iccS,Wuhan
+36397,2012,vsgames,Los Angeles
+36398,2012,ant,Shanghai
+36399,2010,iccS,Ho Chi Minh City
+36400,2012,complexsystems,Tianjin
+36401,2011,complexsystems,Singapore
+36402,2012,iccS,San Francisco
+36403,2012,dsai,Jakarta
+36404,2013,cser,Manila
+36411,2012,aistats,Rio de Janeiro
+36412,2007,aistats,Manila
+36413,2008coa,nips,Istanbul
+36414,2011,colt,Bangkok
+36415,2012,colt,Bangkok
+36416,2008fsdm,pkdd,Shanghai
+36417,2010fsdm,pakdd,Cairo
+36418,2011,acml,Baghdad
+36419,2010w,aistats,Jakarta
+36420,2010,aistats,New York City
+36421,2009,aistats,Kuala Lumpur
+36422,2011,aistats,Johannesburg
+36423,2011otee,icml,Lahore
+36424,2012,icgi,Bogotá
+36425,2012,acml,Sydney
+36426,2010,wapa,Shanghai
+36427,2011utl,icml,Amsterdam
+36428,2010,acml,Mumbai
+36429,2010ltr,icml,Manila
+36430,2009mscts,nips,Rio de Janeiro
+36431,2008cpc,wcci,Mexico City
+36432,2009kddcup,kdd,Hong Kong
+36433,2009,mlsb,Paris
+36434,2011kddcup,kdd,Sydney
+36435,2011,wapa,Jakarta
+36448,2014,sigsand,Hyderabad
+36449,2011,sigsand,Singapore
+36450,2013,sigsand,Istanbul
+36451,2008,sigsand,Shanghai
+36452,1989,wopplot,Kuala Lumpur
+36453,1986,wopplot,Jakarta
+36454,2011,aldt,Toronto
+36455,2013,aldt,Chicago
+36456,2009,aldt,Santiago
+36457,2007,ecrime,Berlin
+36458,2012,ecrime,Delhi
+36459,2011,ecrime,Sydney
+36460,2013,asiams,São Paulo
+36461,2007,asiams,Singapore
+36462,2009,asiams,Lagos
+36463,2008,asiams,Ahmedabad
+36464,2012,asiams,Singapore
+36470,2003,ACMicec,Dubai
+36471,2006,ACMicec,Bogotá
+36472,2012,ACMicec,Mumbai
+36473,2004,ACMicec,Chennai
+36474,2008,ACMicec,Manila
+36475,2005,ACMicec,Kuala Lumpur
+36476,2007,ACMicec,Ahmedabad
+36477,2009,ACMicec,Hyderabad
+36478,2013lnbip,ACMicec,Karachi
+36479,2014,ACMicec,São Paulo
