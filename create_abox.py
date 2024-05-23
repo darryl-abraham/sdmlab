@@ -9,7 +9,7 @@ abox = Graph()
 url = Namespace("http://sdmlab2.org/")
 abox.bind("url", url)
 
-# add instance data from .csv files
+# Add ABox Data from .csv files
 
 author = pd.read_csv('author.csv')
 for index, row in author.iterrows():
