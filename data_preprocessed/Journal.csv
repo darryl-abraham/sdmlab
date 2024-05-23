@@ -1,6 +1,6 @@
-Journal_ID,name
-11514,"IBM Research Report, San Jose, California"
-11515,Hydrology and Earth System Sciences
-11516,Foundations and Trends in Communications and Information Theory
-11517,ACM Crossroads
-11518,IEEE T. Instrumentation and Measurement
+Journal_ID,name,topic,Topic_ID
+11514,"IBM Research Report, San Jose, California",Quantum Computing,10
+11515,Hydrology and Earth System Sciences,Database,0
+11516,Foundations and Trends in Communications and Information Theory,Cybersecurity,5
+11517,ACM Crossroads,Cybersecurity,5
+11518,IEEE T. Instrumentation and Measurement,Artificial Intelligence,1
