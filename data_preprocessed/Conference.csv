@@ -1,25 +1,25 @@
 Conference_ID,name,topic,Topic_ID
-36405,ant,Ethics,3
-36406,cser,Ethics,3
-36407,iccS,Data Science,4
-36408,vsgames,Computer Science,2
-36409,complexsystems,Machine Learning,6
-36410,dsai,Data Science,4
-36436,aistats,Computer Science,2
-36437,nips,Artificial Intelligence,1
-36438,colt,Blockchain,7
-36439,pkdd,Artificial Intelligence,1
-36440,pakdd,Internet of Things,9
+36405,ant,Blockchain,7
+36406,cser,Cloud Computing,8
+36407,iccS,Cloud Computing,8
+36408,vsgames,Data Science,4
+36409,complexsystems,Internet of Things,9
+36410,dsai,Blockchain,7
+36436,aistats,Database,0
+36437,nips,Cloud Computing,8
+36438,colt,Cybersecurity,5
+36439,pkdd,Cybersecurity,5
+36440,pakdd,Cloud Computing,8
 36441,acml,Blockchain,7
-36442,icml,Ethics,3
-36443,icgi,Artificial Intelligence,1
-36444,wapa,Ethics,3
-36445,wcci,Internet of Things,9
-36446,kdd,Data Science,4
-36447,mlsb,Blockchain,7
+36442,icml,Quantum Computing,10
+36443,icgi,Cybersecurity,5
+36444,wapa,Artificial Intelligence,1
+36445,wcci,Database,0
+36446,kdd,Quantum Computing,10
+36447,mlsb,Cloud Computing,8
 36465,sigsand,Artificial Intelligence,1
 36466,wopplot,Machine Learning,6
-36467,aldt,Data Science,4
-36468,ecrime,Cybersecurity,5
-36469,asiams,Data Science,4
-36480,ACMicec,Cybersecurity,5
+36467,aldt,Database,0
+36468,ecrime,Database,0
+36469,asiams,Artificial Intelligence,1
+36480,ACMicec,Artificial Intelligence,1

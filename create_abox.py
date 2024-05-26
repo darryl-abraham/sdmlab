@@ -109,6 +109,7 @@ for index, row in confwork.iterrows():
     abox.add((URIRef(url + 'ConfWork/' + str(row['Conference_ID'])), url.confworkName, Literal(row['name'], datatype=XSD.string)))
     abox.add((URIRef(url + 'ConfWork/' + str(row['Conference_ID'])), url.confworkRelatedTo, URIRef(url + 'Topic/' + str(row['Topic_ID']))))
 
+
 # Serialize to ttl and save
 turtle_data = abox.serialize(destination='abox.ttl', format='turtle')
 
