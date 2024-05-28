@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix url: <http://sdmlab2.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+url:citedBy a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range url:Paper .
+
+url:companyName a rdf:Property ;
+    rdfs:domain url:Company ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf url:orgName .
+
+url:confworkName a rdf:Property ;
+    rdfs:domain url:ConfWork ;
+    rdfs:range xsd:string .
+
+url:confworkRelatedTo a rdf:Property ;
+    rdfs:domain url:ConfWork ;
+    rdfs:range url:Topic .
+
+url:correspondingAuthor a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:Paper ;
+    rdfs:subPropertyOf url:Authored .
+
+url:hasAbstract a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range xsd:string .
+
+url:hasKeyword a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range url:Keyword .
+
+url:hasName a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range xsd:string .
+
+url:hasText a rdf:Property ;
+    rdfs:domain url:Review ;
+    rdfs:range xsd:string .
+
+url:hasTitle a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range xsd:string .
+
+url:heldIn a rdf:Property ;
+    rdfs:domain url:Proceeding ;
+    rdfs:range xsd:string .
+
+url:isAbout a rdf:Property ;
+    rdfs:domain url:Topic ;
+    rdfs:range xsd:string .
+
+url:isWord a rdf:Property ;
+    rdfs:domain url:Keyword ;
+    rdfs:range xsd:string .
+
+url:journalName a rdf:Property ;
+    rdfs:domain url:Journal ;
+    rdfs:range xsd:string .
+
+url:journalRelatedTo a rdf:Property ;
+    rdfs:domain url:Journal ;
+    rdfs:range url:Topic .
+
+url:partOfTopic a rdf:Property ;
+    rdfs:domain url:Keyword ;
+    rdfs:range url:Topic .
+
+url:proceedingPublicationYear a rdf:Property ;
+    rdfs:domain url:Proceeding ;
+    rdfs:range xsd:int .
+
+url:publishedByConfWork a rdf:Property ;
+    rdfs:domain url:Proceeding ;
+    rdfs:range url:ConfWork ;
+    rdfs:subPropertyOf url:publishedBy .
+
+url:publishedByJournal a rdf:Property ;
+    rdfs:domain url:Volume ;
+    rdfs:range url:Journal ;
+    rdfs:subPropertyOf url:publishedBy .
+
+url:publishedInProceeding a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range url:Proceeding ;
+    rdfs:subPropertyOf url:publishedIn .
+
+url:publishedInVolume a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range url:Volume ;
+    rdfs:subPropertyOf url:publishedIn .
+
+url:relevantAuthorOf a rdf:Property ;
+    rdfs:domain url:Author .
+
+url:relevantAuthorOfConfWork a rdf:Property ;
+    rdfs:range url:ConfWork .
+
+url:relevantAuthorOfJournal a rdf:Property ;
+    rdfs:range url:Journal .
+
+url:reviewOf a rdf:Property ;
+    rdfs:domain url:Review ;
+    rdfs:range url:Paper .
+
+url:universityName a rdf:Property ;
+    rdfs:domain url:University ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf url:orgName .
+
+url:volumeName a rdf:Property ;
+    rdfs:domain url:Volume ;
+    rdfs:range xsd:string .
+
+url:volumePublicationYear a rdf:Property ;
+    rdfs:domain url:Volume ;
+    rdfs:range xsd:int .
+
+url:worksForCompany a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:Company ;
+    rdfs:subPropertyOf url:worksFor .
+
+url:worksForUniversity a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:University ;
+    rdfs:subPropertyOf url:worksFor .
+
+url:wrotePaper a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:Paper ;
+    rdfs:subPropertyOf url:Authored .
+
+url:wroteReview a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:Review ;
+    rdfs:subPropertyOf url:Authored .
+
+url:Company rdfs:subClassOf url:Organization .
+
+url:University rdfs:subClassOf url:Organization .
+
+url:publishedBy a rdf:Property ;
+    rdfs:domain url:Collection ;
+    rdfs:range url:Publication .
+
+url:publishedIn a rdf:Property ;
+    rdfs:domain url:Paper ;
+    rdfs:range url:Collection .
+
+url:worksFor a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:Organization .
+
+url:Authored a rdf:Property ;
+    rdfs:domain url:Author ;
+    rdfs:range url:Paper,
+        url:Review .
+
+url:ConfWork rdfs:subClassOf url:Publication .
+
+url:Journal rdfs:subClassOf url:Publication .
+
+url:Proceeding rdfs:subClassOf url:Collection .
+
+url:Volume rdfs:subClassOf url:Collection .
+
