@@ -177,5 +177,5 @@ tbox.add((url.journalRelatedTo, RDFS.domain, url.Journal))
 tbox.add((url.journalRelatedTo, RDFS.range, url.Topic))
 
 # Serialize to .ttl and save
-turtle_data = tbox.serialize(destination='MDS12-g6-B.1-TBOX-ABRAHAMWINTERS.ttl', format='turtle')
+turtle_data = tbox.serialize(destination='MDS12-g6-B.1-TBOX-ABRAHAM-WINTERS.ttl', format='turtle')
 

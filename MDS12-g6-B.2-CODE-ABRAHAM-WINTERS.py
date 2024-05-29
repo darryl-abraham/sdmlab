@@ -100,5 +100,5 @@ for index, row in confwork.iterrows():
 
 
 # Serialize to ttl and save
-turtle_data = abox.serialize(destination='MDS12-g6-B.2-ABOX-ABRAHAMWINTERS.ttl', format='turtle')
+turtle_data = abox.serialize(destination='MDS12-g6-B.2-ABOX-ABRAHAM-WINTERS.ttl', format='turtle')
 
